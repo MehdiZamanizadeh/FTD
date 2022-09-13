@@ -1,0 +1,43 @@
+    {
+      "version": "dih64qm2qeeni",
+      "name": "SECLAB",
+      "directoryConfigurations": [
+        {
+          "hostname": "seclab.local",
+          "port": 636,
+          "encryptionProtocol": "LDAPS",
+          "encryptionCert": {
+            "version": "iex627z2tv35i",
+            "name": "0-SECLAB-RootCA",
+            "id": "4a302fa1-b655-11ec-a229-9f6bdf62a7b9",
+            "type": "externalcacertificate"
+          },
+          "interface": {
+            "version": "gznecsofyfkj",
+            "name": "seclab",
+            "hardwareName": "GigabitEthernet0/2",
+            "id": "12e26f10-b585-11ec-b872-690ef63958e2",
+            "type": "physicalinterface"
+          },
+          "type": "directoryconfiguration"
+        }
+      ],
+      "enabled": true,
+      "systemDefined": false,
+      "realmId": 6,
+      "dirUsername": "amir@seclab.local",
+      "dirPassword": "*********",
+      "baseDN": "dc=seclab,dc=local",
+      "ldapAttributeMap": {
+        "version": "kfcd7pxpfgsez",
+        "name": "Map-Test",
+        "id": "ae97f9dc-c491-11ec-8435-ab049a148a16",
+        "type": "ldapattributemap"
+      },
+      "adPrimaryDomain": "seclab.local",
+      "id": "a6fdb836-c486-11ec-8435-f53b14f43c38",
+      "type": "activedirectoryrealm",
+      "links": {
+        "self": "https://172.16.71.38/api/fdm/v6/object/realms/a6fdb836-c486-11ec-8435-f53b14f43c38"
+      }
+    }

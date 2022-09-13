@@ -1,0 +1,27 @@
+{
+      "name": "Map-Test",
+      "ldapAttributeMaps": [
+{
+"ldapName": "memberOf",
+"ciscoName": "GROUP_POLICY",
+"valueMappings": [
+{
+"ldapValue": "CN=Full,CN=Users,DC=seclab,DC=local",
+"ciscoValue": "Full",
+"type": "ldaptociscovaluemapping"
+},
+{
+"ldapValue": "CN=Split,CN=Users,DC=seclab,DC=local",
+"ciscoValue": "Split",
+"type": "ldaptociscovaluemapping"
+}
+],
+"type": "ldapattributemapping"
+}
+      ],
+      "ldapAttributeToGroupPolicyMappings": [],
+      "type": "ldapattributemap",
+      "links": {
+        "self": "https://172.16.71.38/api/fdm/v6/object/ldapattributemaps/24f13b03-b76d-11ec-a229-c7a7efe7b205"
+      }
+}
